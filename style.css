@@ -1,0 +1,23 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+#grid {
+  display: flex;
+  flex-wrap: wrap;
+  border: solid 1px;
+  width: 500px;
+  height: 500px;
+}
+
+.gridElement {
+  width: 20px;
+  height: 20px;
+}
+
+.player {
+  background-color: orange;
+}
